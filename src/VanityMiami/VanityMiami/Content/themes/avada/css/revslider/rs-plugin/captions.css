@@ -1,0 +1,571 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+@import url(http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps);
+
+
+.avada_huge_white_text{
+			position: absolute; 
+			color: #ffffff; 
+			font-size: 30px; 
+			line-height: 45px; 
+			font-family: museoslab500regular;
+            text-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+		}
+
+.avada_huge_black_text{
+			position: absolute; 
+			color: #000000; 
+			font-size: 130px; 
+			line-height: 45px; 
+			font-family: museoslab500regular;
+		}
+
+.avada_big_black_text{
+			position: absolute; 
+			color: #333333; 
+			font-size: 42px; 
+			line-height: 45px; 
+			font-family: museoslab500regular;
+		}
+
+.avada_big_white_text{
+			position: absolute; 
+			color: #fff; 
+			font-size: 42px; 
+			line-height: 45px; 
+			font-family: museoslab500regular;
+		}
+
+.avada_big_black_text_center{
+			position: absolute; 
+			color: #333333; 
+			font-size: 38px; 
+			line-height: 45px; 
+			font-family: museoslab500regular;
+                        text-align: center;
+		}
+
+
+.avada_med_green_text{
+			position: absolute; 
+			color: #A0CE4E; 
+			font-size: 24px; 
+			line-height: 24px; 
+			font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+		}
+
+
+.avada_small_gray_text{
+			position: absolute; 
+			color: #747474; 
+			font-size: 13px; 			
+            line-height: 20px; 
+			font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+		}
+
+.avada_small_white_text{
+			position: absolute; 
+			color: #fff; 
+			font-size: 13px; 			
+            line-height: 20px; 
+			font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+    		text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  			font-weight: 700; 
+
+		}
+
+
+.avada_block_black{
+			position: absolute; 
+			color: #A0CE4E; 
+			text-shadow: none; 
+			font-size: 22px; 
+			line-height: 34px; 
+			padding: 0px 10px; 
+			padding-top: 1px;
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#000;	
+			font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+	}
+
+.avada_block_green{
+			position: absolute; 
+			color: #000; 
+			text-shadow: none; 
+			font-size: 22px; 
+			line-height: 34px; 
+			padding: 0px 10px; 
+			padding-top: 1px;
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#A0CE4E;	
+			font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+	}
+
+.avada_block_white{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-size: 22px; 
+			line-height: 34px; 
+			padding: 0px 10px; 
+			padding-top: 1px;
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#000;	
+			font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+	}
+
+
+.avada_block_white_trans{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-size: 22px; 
+			line-height: 34px; 
+			padding: 0px 10px; 
+			padding-top: 1px;
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:rgba(0, 0, 0, 0.6);    		
+			font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+	}
+
+
+.tp-caption.big_white{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 36px; 
+			line-height: 36px; 
+			font-family: Arial; 
+			padding: 0px 4px; 
+			padding-top: 1px;
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#000;	
+			letter-spacing: -1.5px;										
+		}
+
+.tp-caption.big_orange{
+			position: absolute; 
+			color: #ff7302; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 36px; 
+			line-height: 36px; 
+			font-family: Arial; 
+			padding: 0px 4px; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#fff;	
+			letter-spacing: -1.5px;															
+		}	
+					
+.tp-caption.big_black{
+			position: absolute; 
+			color: #000; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 36px; 
+			line-height: 36px; 
+			font-family: Arial; 
+			padding: 0px 4px; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#fff;	
+			letter-spacing: -1.5px;															
+		}		
+
+.tp-caption.medium_grey{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 20px; 
+			line-height: 20px; 
+			font-family: Arial; 
+			padding: 2px 4px; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#888;		
+			white-space:nowrap;	
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);		
+		}	
+					
+.tp-caption.small_text{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 14px; 
+			line-height: 20px; 
+			font-family: Arial; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;	
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);		
+		}
+					
+.tp-caption.medium_text{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 20px; 
+			line-height: 20px; 
+			font-family: Arial; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;	
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);		
+		}
+					
+.tp-caption.large_text{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 20px; 
+			line-height: 40px; 
+			font-family: Arial; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;	
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);		
+		}	
+					
+.tp-caption.very_large_text{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 60px; 
+			line-height: 60px; 
+			font-family: Arial; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;	
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+			letter-spacing: -2px;		
+		}
+					
+.tp-caption.very_big_white{
+			position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 60px; 
+			line-height: 60px; 
+			font-family: Arial; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;	
+			padding: 0px 4px; 
+			padding-top: 1px;
+			background-color:#000;		
+					}	
+					
+.tp-caption.very_big_black{
+			position: absolute; 
+			color: #000; 
+			text-shadow: none; 
+			font-weight: 700; 
+			font-size: 60px; 
+			line-height: 60px; 
+			font-family: Arial; 
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			white-space:nowrap;	
+			padding: 0px 4px; 
+			padding-top: 1px;
+			background-color:#fff;		
+					}
+					
+.tp-caption.boxshadow{
+		-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+	}
+											
+.tp-caption.black{
+		color: #000; 
+		text-shadow: none;		
+	}	
+					
+.tp-caption.noshadow {
+		text-shadow: none;		
+	}	
+					
+.tp-caption a { 
+	color: #ff7302; text-shadow: none;	-webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out;	 
+}			
+	
+.tp-caption a:hover { 
+	color: #ffa902; 
+}
+.breast-slider {
+		color:#fff; 
+  		font-size:50px; 
+  		font-family: 'Lato', sans-serif; 
+  		text-shadow: 1px 1px #000;	
+	}
+.black1 {
+  		background-image:url(http://my-vanities.com/wp-content/uploads/2013/07/black1.png); 
+    	background-repeat:repeat-y repeat-x; 
+    	width:550px; 
+    	height:190px; 
+    	text-align:center; 
+    	position:relative; 
+    	top:55px; 
+    	left:24px;
+    }
+.brazilian {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:175px;
+    	text-shadow: 1px 1px #fff;
+  		color:#000;
+}
+.buttlift {
+  		font-family: 'Raleway', sans-serif;
+    	font-size:60px;
+    	color:#000;
+    	text-shadow: 1px 1px #fff;
+}
+.breastaug {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:55px;
+    	text-shadow: 1px 1px #fff;
+  		color:#000;
+}
+.home1 {
+  		font-family: museoslab500regular;
+    	font-size:25px;
+    	text-shadow: 1px 1px #000;
+  		color:#fff;
+}
+.laser {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:45px;
+    	text-shadow: 1px 1px #fff;
+  		color:#000;
+}  
+.realize {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:65px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+  		font-weight:bold;
+}
+.check {
+  		background-image:url('http://localhost:8888/wp-content/uploads/2013/08/bg_text.png');
+  		width:341px;
+  		padding:20px;
+    	color:#fff;
+    	font-size:20px;
+    	font-family: 'Lato', sans-serif;
+    	text-shadow: 1px 1px #000;
+}
+.medium_text-better {
+      	position:absolute;
+      	color:#fff;
+      	text-shadow: none;
+      	font-weight: 700;
+      	font-size: 17px;
+      	line-height: 20px;
+      	font-family: Arial;
+      	margin: 0px;
+      	border-width: 0px;
+      	border-style: none;
+      	white-space:nowrap;
+      	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.brazilian1 {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:155px;
+    	text-shadow: 1px 1px #fff;
+  		color:#000;
+}
+.buttlift1 {
+  		font-family: 'Raleway', sans-serif;
+    	font-size:40px;
+    	color:#057591;
+    	text-shadow: 2px 1px #fff;
+}
+.breastaug1 {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:75px;
+    	text-shadow: 1px 1px #fff;
+  		color:#000;
+}
+.realize1 {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:110px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.tummytuck1 {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:100px;
+    	text-shadow: 1px 1px #fff;
+  		color:#057591;
+}
+.tummytucktext {
+  		font-family: 'Bilbo Swash Caps', cursive;
+  		font-size:110px;
+    	text-shadow: 1px 1px #fff;
+  		color:#057591;
+}
+.realize2 {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:120px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.realize3 {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:110px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+        font-weight:bold;
+}
+.museo {
+  		font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif;
+    	font-size:50px;
+    	text-shadow: 3px 1px #f8f8f8;
+  		color:#057591;
+        letter-spacing:-2px;
+  		line-height:1;
+}
+.museo-buttlift {
+  		font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif;
+    	font-size:75px;
+    	text-shadow: 3px 1px #f8f8f8;
+  		color:#057591;
+  		font-weight:100;
+}
+.museo_smaller {
+  		font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif;
+    	font-size:25px;
+  		color:#464646;
+        letter-spacing:-1.5px;
+        text-shadow: 2px 1px #fff;
+}
+.museo_small {
+  		font-family: 'Arial', sans-serif;
+    	font-size:25px;
+  		color:#464646;
+        letter-spacing:-1.5px;
+        text-shadow: 2px 1px #fff;
+}
+.cursive_buttlift {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:55px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.bbl3 {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:100px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.welcometomiami {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:45px;
+    	text-shadow: 1px 1px #fff;
+  		color:#000;
+}
+.permanent {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:130px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.filler {
+  		font-family: 'Arial', sans-serif;
+    	font-size:30px;
+  		color:#464646;
+        letter-spacing:-1.5px;
+        text-shadow: 2px 1px #fff;
+}
+.post-massage {
+  		font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif;
+    	font-size:25px;
+  		color:#464646;
+        letter-spacing:-1.5px;
+        text-shadow: 2px 1px #fff;
+}
+.breastaug {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:70px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.collagen {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:90px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.rhino {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:110px;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.breast-reduction {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:7em;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.facelift {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:12em;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.endermologie {
+  		font-family: 'Bilbo Swash Caps', cursive;
+    	font-size:10em;
+    	text-shadow: 2px 2px #fff;
+  		color:#057591;
+}
+.small-text-font {
+  		font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+    	font-size:1em;
+    	text-shadow: 1px 1px #fff;
+  		color:#000;
+}
+.small-text-font1 {
+  		font-family: PTSansRegular, Arial, Helvetica, sans-serif;
+    	font-size:1.5em;
+    	text-shadow: 1px 1px #fff;
+  		color:#000;
+}
+
+.avada_huge_white_text_copy{
+			position: absolute; 
+			color: #057591; 
+			font-size: 30px; 
+			line-height: 45px; 
+			font-family: museoslab500regular;
+            text-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+		}

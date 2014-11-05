@@ -1,0 +1,18 @@
+﻿#jotform-feedback:hover
+{
+    color: rgb(255, 255, 255) !important; background-color: rgb(92, 92, 92) !important;
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+	#wrapper .ei-slider{width:100% !important;}
+	body #header.sticky-header,body #header.sticky-header.sticky{display:none !important;}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+	#wrapper .ei-slider{width:100% !important;}
+	body #header.sticky-header,body #header.sticky-header.sticky{display:none !important;}
+}
+
+.animated {
+    visibility: hidden;
+}

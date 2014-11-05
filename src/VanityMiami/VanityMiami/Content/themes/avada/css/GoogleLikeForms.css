@@ -1,0 +1,1061 @@
+.GoogleLikeForms input, 
+.GoogleLikeForms textarea{
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+button.GoogleLikeForms,
+a.GoogleLikeForms,
+.GoogleLikeForms input[type="submit"],
+.GoogleLikeForms input[type="reset"],
+.GoogleLikeForms input[type="image"] {
+    padding: 8px 30px 7px 30px;
+    margin: 5px 2px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.GoogleLikeForms input[type="button"] {
+    padding: 8px 30px 7px 30px;
+    margin: 5px 2px;
+    color: #222222;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #F0F0F0;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0F0F0), color-stop(100%, #F5F5F5));
+    background-image: -webkit-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -moz-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -o-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -ms-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+}
+
+.GoogleLikeForms input[type="button"]:hover {
+    background-color: #E8E8E8;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E8E8E8), color-stop(100%, #F5F5F5));
+    background-image: -webkit-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -moz-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -o-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -ms-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #cecece;
+}
+
+.GoogleLikeForms input[type="button"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    border: 1px solid #c9c9c9;
+}
+
+.GoogleLikeForms input[type="image"] {
+    height: 17px;
+    padding: 7px 10px 6px 10px;
+    position: absolute;
+}
+
+.GoogleLikeForms input[type="text"],
+.GoogleLikeForms input[type="password"],.GoogleLikeForms textarea {
+    padding: 8px 10px;
+    color: #555555;
+    font-size: 12px;
+    margin: 5px 2px;
+    font-family: 'Droid Sans', sans-serif;
+    background-color: #fdfdfd;
+    border: 1px solid #c2c2c2;
+}
+
+.GoogleLikeForms input[type="text"]:hover,
+.GoogleLikeForms input[type="password"]:hover,
+.GoogleLikeForms textarea:hover {
+    border: 1px solid #a2a2a2;
+    outline: none;
+    
+    box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+    -moz-box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.GoogleLikeForms input[type="text"]:focus,
+.GoogleLikeForms input[type="password"]:focus,
+.GoogleLikeForms textarea:focus {
+    outline: none;
+    
+    box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+    -moz-box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: -1px 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.GoogleLikeForms input.GLF_correctInput {
+    border: 1px solid #90d190;
+    color: #407d40;
+    text-shadow: 0px 0px 5px rgba(0,0,0,.1);
+}
+
+.GoogleLikeForms input.GLF_correctInput:focus,
+.GoogleLikeForms input.GLF_correctInput:hover {
+    background-color: #e7f9e7;
+    border: 1px solid #7cc17c;
+}
+
+.GoogleLikeForms input.GLF_wrongInput {
+    border: 1px solid #ff9597;
+    color: #933a3c;
+}
+
+.GoogleLikeForms input.GLF_wrongInput:focus,
+.GoogleLikeForms input.GLF_wrongInput:hover {
+    background-color: #fff2f2;
+    border: 1px solid #ff6e70;
+}
+
+.GLF_search {
+    position: relative;
+}
+
+.GLF_search input.searchINPUT {
+    -webkit-border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: 0px;
+}
+
+.GLF_search input.searchBTN {
+    position: absolute;
+
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -4px;
+}
+
+
+
+
+
+
+
+
+/* Colors >>>> */
+
+
+
+/*
+*
+* Blue Color
+*
+*/
+
+.GLF-blue input[type="text"]:focus,
+.GLF-blue input[type="password"]:focus,
+.GLF-blue textarea:focus {
+    border: 1px solid #659bf2;
+}
+
+button.GLF-blue,
+a.GLF-blue,
+.GLF-blue input[type="submit"],
+.GLF-blue input[type="reset"],
+.GLF-blue input[type="image"] {
+    background-color: #498af2;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #498AF2), color-stop(100%, #5993F1));
+    background-image: -webkit-linear-gradient(bottom, #498AF2 0%, #5993F1 100%);
+    background-image: -moz-linear-gradient(bottom, #498AF2 0%, #5993F1 100%);
+    background-image: -o-linear-gradient(bottom, #498AF2 0%, #5993F1 100%);
+    background-image: -ms-linear-gradient(bottom, #498AF2 0%, #5993F1 100%);
+    background-image: linear-gradient(bottom, #498AF2 0%, #5993F1 100%);
+    
+    border: 1px solid #4783e2;
+    text-shadow: 0px 1px 0px #2269d9;
+}
+
+button.GLF-blue:hover,
+a.GLF-blue:hover,
+.GLF-blue input[type="submit"]:hover,
+.GLF-blue input[type="reset"]:hover,
+.GLF-blue input[type="image"]:hover {
+    background-color: rgb(73,138,242);
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(48,121,237)), color-stop(100%, rgb(73,138,242)));
+    background-image: -webkit-linear-gradient(bottom, rgb(48,121,237) 0%, rgb(73,138,242) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(48,121,237) 0%, rgb(73,138,242) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(48,121,237) 0%, rgb(73,138,242) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(48,121,237) 0%, rgb(73,138,242) 100%);
+    background-image: linear-gradient(bottom, rgb(48,121,237) 0%, rgb(73,138,242) 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #2269d9;
+}
+
+button.GLF-blue:active,
+a.GLF-blue:active,
+.GLF-blue input[type="submit"]:active,
+.GLF-blue input[type="reset"]:active,
+.GLF-blue input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    border: 1px solid #5993f1;
+}
+
+/*
+*
+* =Blue Color
+*
+*/
+
+
+
+
+
+
+/*
+*
+* red Color
+*
+*/
+
+.GLF-red input[type="text"]:focus,
+.GLF-red input[type="password"]:focus,
+.GLF-red textarea:focus {
+    border: 1px solid #d14836;
+}
+
+button.GLF-red,
+a.GLF-red,
+.GLF-red input[type="submit"],
+.GLF-red input[type="reset"],
+.GLF-red input[type="image"] {
+    background-color: #DD4C39;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #DD4C39)color-stop(0%, #D14836));
+    background-image: -webkit-linear-gradient(bottom, #DD4C39 100%, #D14836 0%);
+    background-image: -moz-linear-gradient(bottom, #DD4C39 100%, #D14836 0%);
+    background-image: -o-linear-gradient(bottom, #DD4C39 100%, #D14836 0%);
+    background-image: -ms-linear-gradient(bottom, #DD4C39 100%, #D14836 0%);
+    background-image: linear-gradient(bottom, #DD4C39 100%, #D14836 0%);
+    
+    border: 1px solid #d64232;
+    text-shadow: 0 1px 0 #d64232;
+}
+
+button.GLF-red:hover,
+a.GLF-red:hover,
+.GLF-red input[type="submit"]:hover,
+.GLF-red input[type="reset"]:hover,
+.GLF-red input[type="image"]:hover {
+    background-color: #BF362A;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #E04B3A)color-stop(0%, #BF362A));
+    background-image: -webkit-linear-gradient(bottom, #E04B3A 100%, #BF362A 0%);
+    background-image: -moz-linear-gradient(bottom, #E04B3A 100%, #BF362A 0%);
+    background-image: -o-linear-gradient(bottom, #E04B3A 100%, #BF362A 0%);
+    background-image: -ms-linear-gradient(bottom, #E04B3A 100%, #BF362A 0%);
+    background-image: linear-gradient(bottom, #E04B3A 100%, #BF362A 0%);
+
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid #BF362A;
+}
+
+button.GLF-red:active,
+a.GLF-red:active,
+.GLF-red input[type="submit"]:active,
+.GLF-red input[type="reset"]:active,
+.GLF-red input[type="image"]:active {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+    border: 1px solid #BF362A;
+}
+
+/*
+*
+* =red Color
+*
+*/
+
+
+
+
+
+
+/*
+*
+* lightblue Color
+*
+*/
+
+.GLF-lightblue input[type="text"]:focus,
+.GLF-lightblue input[type="password"]:focus,
+.GLF-lightblue textarea:focus {
+    border: 1px solid #0088cf;
+}
+
+
+button.GLF-lightblue,
+a.GLF-lightblue,
+.GLF-lightblue input[type="submit"],
+.GLF-lightblue input[type="reset"],
+.GLF-lightblue input[type="image"] {
+    background-color: #00BFFF;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00BFFF), color-stop(100%, #29CDFF));
+    background-image: -webkit-linear-gradient(bottom, #00BFFF 0%, #29CDFF 100%);
+    background-image: -moz-linear-gradient(bottom, #00BFFF 0%, #29CDFF 100%);
+    background-image: -o-linear-gradient(bottom, #00BFFF 0%, #29CDFF 100%);
+    background-image: -ms-linear-gradient(bottom, #00BFFF 0%, #29CDFF 100%);
+    background-image: linear-gradient(bottom, #00BFFF 0%, #29CDFF 100%);
+    border: 1px solid #00ade2;
+    text-shadow: 0px 1px 0px #0088cf;
+}
+
+button.GLF-lightblue:hover,
+a.GLF-lightblue:hover,
+.GLF-lightblue input[type="submit"]:hover,
+.GLF-lightblue input[type="reset"]:hover,
+.GLF-lightblue input[type="image"]:hover {
+    background-color: #33CFFF;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00A8E0), color-stop(100%, #33CFFF));
+    background-image: -webkit-linear-gradient(bottom, #00A8E0 0%, #33CFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #00A8E0 0%, #33CFFF 100%);
+    background-image: -o-linear-gradient(bottom, #00A8E0 0%, #33CFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #00A8E0 0%, #33CFFF 100%);
+    background-image: linear-gradient(bottom, #00A8E0 0%, #33CFFF 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #009af2;
+}
+
+button.GLF-lightblue:active,
+a.GLF-lightblue:active,
+.GLF-lightblue input[type="submit"]:active,
+.GLF-lightblue input[type="reset"]:active,
+.GLF-lightblue input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px #009af2 inset;
+    -moz-box-shadow: 0px 1px 3px #009af2 inset;
+    box-shadow: 0px 1px 3px #009af2 inset;
+    border: 1px solid #0088cf;
+}
+
+/*
+*
+* =lightblue Color
+*
+*/
+
+
+
+
+
+
+/*
+*
+* lightred Color
+*
+*/
+
+.GLF-lightred input[type="text"]:focus,
+.GLF-lightred input[type="password"]:focus,
+.GLF-lightred textarea:focus {
+    border: 1px solid #F53F5B;
+}
+
+button.GLF-lightred,
+a.GLF-lightred,
+.GLF-lightred input[type="submit"],
+.GLF-lightred input[type="reset"],
+.GLF-lightred input[type="image"] {
+    background-color: #F53F5B;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #F53F5B)color-stop(0%, #FF3D5D));
+    background-image: -webkit-linear-gradient(bottom, #F53F5B 100%, #FF3D5D 0%);
+    background-image: -moz-linear-gradient(bottom, #F53F5B 100%, #FF3D5D 0%);
+    background-image: -o-linear-gradient(bottom, #F53F5B 100%, #FF3D5D 0%);
+    background-image: -ms-linear-gradient(bottom, #F53F5B 100%, #FF3D5D 0%);
+    background-image: linear-gradient(bottom, #F53F5B 100%, #FF3D5D 0%);
+
+    border: 1px solid #F53F5B;
+    text-shadow: 0px 1px 0px #cf0020;
+}
+
+button.GLF-lightred:hover,
+a.GLF-lightred:hover,
+.GLF-lightred input[type="submit"]:hover,
+.GLF-lightred input[type="reset"]:hover,
+.GLF-lightred input[type="image"]:hover {
+    background-color: #FF123A;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF123A), color-stop(100%, #F53F5B));
+    background-image: -webkit-linear-gradient(bottom, #FF123A 0%, #F53F5B 100%);
+    background-image: -moz-linear-gradient(bottom, #FF123A 0%, #F53F5B 100%);
+    background-image: -o-linear-gradient(bottom, #FF123A 0%, #F53F5B 100%);
+    background-image: -ms-linear-gradient(bottom, #FF123A 0%, #F53F5B 100%);
+    background-image: linear-gradient(bottom, #FF123A 0%, #F53F5B 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #e60124;
+}
+
+button.GLF-lightred:active,
+a.GLF-lightred:active,
+.GLF-lightred input[type="submit"]:active,
+.GLF-lightred input[type="reset"]:active,
+.GLF-lightred input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px #e60124 inset;
+    -moz-box-shadow: 0px 1px 3px #e60124 inset;
+    box-shadow: 0px 1px 3px #e60124 inset;
+    border: 1px solid #d10020;
+}
+
+/*
+*
+* =lightred Color
+*
+*/
+
+
+
+
+
+
+
+
+/*
+*
+* green Color
+*
+*/
+
+.GLF-green input[type="text"]:focus,
+.GLF-green input[type="password"]:focus,
+.GLF-green textarea:focus {
+    border: 1px solid #ACDB3D;
+}
+
+button.GLF-green,
+a.GLF-green,
+.GLF-green input[type="submit"],
+.GLF-green input[type="reset"],
+.GLF-green input[type="image"] {
+    background-color: #ACDB3D;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ACDB3D)color-stop(0%, #A4D239));
+    background-image: -webkit-linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+    background-image: -moz-linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+    background-image: -o-linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+    background-image: -ms-linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+    background-image: linear-gradient(bottom, #ACDB3D 100%, #A4D239 0%);
+
+    border: 1px solid #9fcc37;
+    text-shadow: 0px 1px 0px #7ea127;
+}
+
+button.GLF-green:hover,
+a.GLF-green:hover,
+.GLF-green input[type="submit"]:hover,
+.GLF-green input[type="reset"]:hover,
+.GLF-green input[type="image"]:hover {
+    background-color: #94BD2D;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #A4D239)color-stop(0%, #94BD2D));
+    background-image: -webkit-linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+    background-image: -moz-linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+    background-image: -o-linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+    background-image: -ms-linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+    background-image: linear-gradient(bottom, #A4D239 100%, #94BD2D 0%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #7ea127;
+}
+
+button.GLF-green:active,
+a.GLF-green:active,
+.GLF-green input[type="submit"]:active,
+.GLF-green input[type="reset"]:active,
+.GLF-green input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    border: 1px solid #73941f;
+}
+
+/*
+*
+* =green Color
+*
+*/
+
+
+
+
+
+
+
+
+/*
+*
+* dark Color
+*
+*/
+
+.GLF-dark input[type="text"]:focus,
+.GLF-dark input[type="password"]:focus,
+.GLF-dark textarea:focus {
+    border: 1px solid #737373;
+}
+
+button.GLF-dark,
+a.GLF-dark,
+.GLF-dark input[type="submit"],
+.GLF-dark input[type="reset"],
+.GLF-dark input[type="image"] {
+    background-color: #303135;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(48,49,53)), color-stop(100%, rgb(59,61,66)));
+    background-image: -webkit-linear-gradient(bottom, rgb(48,49,53) 0%, rgb(59,61,66) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(48,49,53) 0%, rgb(59,61,66) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(48,49,53) 0%, rgb(59,61,66) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(48,49,53) 0%, rgb(59,61,66) 100%);
+    background-image: linear-gradient(bottom, rgb(48,49,53) 0%, rgb(59,61,66) 100%);
+
+    border: 1px solid #303030;
+    text-shadow: 0px 1px 0px black;
+}
+
+button.GLF-dark:hover,
+a.GLF-dark:hover,
+.GLF-dark input[type="submit"]:hover,
+.GLF-dark input[type="reset"]:hover,
+.GLF-dark input[type="image"]:hover {
+    background-color: #94BD2D;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #2C2D30)color-stop(0%, #212124));
+    background-image: -webkit-linear-gradient(bottom, #2C2D30 100%, #212124 0%);
+    background-image: -moz-linear-gradient(bottom, #2C2D30 100%, #212124 0%);
+    background-image: -o-linear-gradient(bottom, #2C2D30 100%, #212124 0%);
+    background-image: -ms-linear-gradient(bottom, #2C2D30 100%, #212124 0%);
+    background-image: linear-gradient(bottom, #2C2D30 100%, #212124 0%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #171717;
+}
+
+button.GLF-dark:active,
+a.GLF-dark:active,
+.GLF-dark input[type="submit"]:active,
+.GLF-dark input[type="reset"]:active,
+.GLF-dark input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.9) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.9) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.9) inset;
+    border: 1px solid #0b0b0b;
+}
+
+/*
+*
+* =dark Color
+*
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+*
+* light Color
+*
+*/
+
+.GLF-light input[type="text"]:focus,
+.GLF-light input[type="password"]:focus,
+.GLF-light textarea:focus {
+    border: 1px solid #e7e7e7;
+}
+
+button.GLF-light,
+a.GLF-light,
+.GLF-light input[type="submit"],
+.GLF-light input[type="reset"],
+.GLF-light input[type="image"] {
+    background-color: #F0F0F0;
+    color: #222222;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0F0F0), color-stop(100%, #F5F5F5));
+    background-image: -webkit-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -moz-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -o-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: -ms-linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+    background-image: linear-gradient(bottom, #F0F0F0 0%, #F5F5F5 100%);
+
+    border: 1px solid #dcdcdc;
+    text-shadow: 0px 1px 0px white;
+}
+
+button.GLF-light:hover,
+a.GLF-light:hover,
+.GLF-light input[type="submit"]:hover,
+.GLF-light input[type="reset"]:hover,
+.GLF-light input[type="image"]:hover {
+    background-color: #E8E8E8;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #E8E8E8), color-stop(100%, #F5F5F5));
+    background-image: -webkit-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -moz-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -o-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: -ms-linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+    background-image: linear-gradient(bottom, #E8E8E8 0%, #F5F5F5 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #cecece;
+}
+
+button.GLF-light:active,
+a.GLF-light:active,
+.GLF-light input[type="submit"]:active,
+.GLF-light input[type="reset"]:active,
+.GLF-light input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    border: 1px solid #c9c9c9;
+}
+
+/*
+*
+* =light Color
+*
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*
+* orange Color
+*
+*/
+
+.GLF-orange input[type="text"]:focus,
+.GLF-orange input[type="password"]:focus,
+.GLF-orange textarea:focus {
+    border: 1px solid #ff7e00;
+}
+
+button.GLF-orange,
+a.GLF-orange,
+.GLF-orange input[type="submit"],
+.GLF-orange input[type="reset"],
+.GLF-orange input[type="image"] {
+     background-color: #FEAF25;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FEAE25), color-stop(100%, #FFBC47));
+    background-image: -webkit-linear-gradient(bottom, #FEAE25 0%, #FFBC47 100%);
+    background-image: -moz-linear-gradient(bottom, #FEAE25 0%, #FFBC47 100%);
+    background-image: -o-linear-gradient(bottom, #FEAE25 0%, #FFBC47 100%);
+    background-image: -ms-linear-gradient(bottom, #FEAE25 0%, #FFBC47 100%);
+    background-image: linear-gradient(bottom, #FEAE25 0%, #FFBC47 100%);
+
+    border: 1px solid #ff9b30;
+    text-shadow: 0px 1px 0px #ff7e00;
+}
+
+button.GLF-orange:hover,
+a.GLF-orange:hover,
+.GLF-orange input[type="submit"]:hover,
+.GLF-orange input[type="reset"]:hover,
+.GLF-orange input[type="image"]:hover {
+    background-color: #FFA70F;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF9900), color-stop(100%, #FFAF26));
+    background-image: -webkit-linear-gradient(bottom, #FF9900 0%, #FFAF26 100%);
+    background-image: -moz-linear-gradient(bottom, #FF9900 0%, #FFAF26 100%);
+    background-image: -o-linear-gradient(bottom, #FF9900 0%, #FFAF26 100%);
+    background-image: -ms-linear-gradient(bottom, #FF9900 0%, #FFAF26 100%);
+    background-image: linear-gradient(bottom, #FF9900 0%, #FFAF26 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #ff7e00;
+}
+
+button.GLF-orange:active,
+a.GLF-orange:active,
+.GLF-orange input[type="submit"]:active,
+.GLF-orange input[type="reset"]:active,
+.GLF-orange input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.2) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.2) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.2) inset;
+    border: 1px solid #ff6600;
+}
+
+/*
+*
+* =orange Color
+*
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*
+* purple Color
+*
+*/
+
+.GLF-purple input[type="text"]:focus,
+.GLF-purple input[type="password"]:focus,
+.GLF-purple textarea:focus {
+    border: 1px solid #A06FBD;
+}
+
+button.GLF-purple,
+a.GLF-purple,
+.GLF-purple input[type="submit"],
+.GLF-purple input[type="reset"],
+.GLF-purple input[type="image"] {
+    background-color: #AE7ACC;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #976CAF), color-stop(100%, #AE7ACC));
+    background-image: -webkit-linear-gradient(bottom, #976CAF 0%, #AE7ACC 100%);
+    background-image: -moz-linear-gradient(bottom, #976CAF 0%, #AE7ACC 100%);
+    background-image: -o-linear-gradient(bottom, #976CAF 0%, #AE7ACC 100%);
+    background-image: -ms-linear-gradient(bottom, #976CAF 0%, #AE7ACC 100%);
+    background-image: linear-gradient(bottom, #976CAF 0%, #AE7ACC 100%);
+
+    border: 1px solid #b95ec9;
+    text-shadow: 0px 1px 0px #8b329b;
+}
+button.GLF-purple:hover,
+a.GLF-purple:hover,
+.GLF-purple input[type="submit"]:hover,
+.GLF-purple input[type="reset"]:hover,
+.GLF-purple input[type="image"]:hover {
+    background-color: #A06FBD;
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7C5394), color-stop(100%, #A06FBD));
+    background-image: -webkit-linear-gradient(bottom, #7C5394 0%, #A06FBD 100%);
+    background-image: -moz-linear-gradient(bottom, #7C5394 0%, #A06FBD 100%);
+    background-image: -o-linear-gradient(bottom, #7C5394 0%, #A06FBD 100%);
+    background-image: -ms-linear-gradient(bottom, #7C5394 0%, #A06FBD 100%);
+    background-image: linear-gradient(bottom, #7C5394 0%, #A06FBD 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.3);
+    border: 1px solid #a351b2;
+}
+button.GLF-purple:active,
+a.GLF-purple:active,
+.GLF-purple input[type="submit"]:active,
+.GLF-purple input[type="reset"]:active,
+.GLF-purple input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.3) inset;
+    border: 1px solid #9544a3;
+}
+
+/*
+*
+* =purple Color
+*
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*
+* yellow Color
+*
+*/
+
+.GLF-yellow input[type="text"]:focus,
+.GLF-yellow input[type="password"]:focus,
+.GLF-yellow textarea:focus {
+    border: 1px solid #F9E11E;
+}
+
+button.GLF-yellow,
+a.GLF-yellow,
+.GLF-yellow input[type="submit"],
+.GLF-yellow input[type="reset"],
+.GLF-yellow input[type="image"] {
+    background-color: rgb(255,234,112);
+
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(255,230,71)), color-stop(100%, rgb(255,234,112)));
+    background-image: -webkit-linear-gradient(bottom, rgb(255,230,71) 0%, rgb(255,234,112) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(255,230,71) 0%, rgb(255,234,112) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(255,230,71) 0%, rgb(255,234,112) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(255,230,71) 0%, rgb(255,234,112) 100%);
+    background-image: linear-gradient(bottom, rgb(255,230,71) 0%, rgb(255,234,112) 100%);
+
+    border: 1px solid #F9E11E;
+    text-shadow: 0px 1px 0px #ffd200;
+}
+
+button.GLF-yellow:hover,
+a.GLF-yellow:hover,
+.GLF-yellow input[type="submit"]:hover,
+.GLF-yellow input[type="reset"]:hover,
+.GLF-yellow input[type="image"]:hover {
+    background-color: rgb(249,223,30);
+    
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(249,223,30)), color-stop(100%, rgb(255,233,87)));
+    background-image: -webkit-linear-gradient(bottom, rgb(249,223,30) 0%, rgb(255,233,87) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(249,223,30) 0%, rgb(255,233,87) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(249,223,30) 0%, rgb(255,233,87) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(249,223,30) 0%, rgb(255,233,87) 100%);
+    background-image: linear-gradient(bottom, rgb(249,223,30) 0%, rgb(255,233,87) 100%);
+
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.2);
+    -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.2);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.2);
+    border: 1px solid #ffe300;
+}
+
+button.GLF-yellow:active,
+a.GLF-yellow:active,
+.GLF-yellow input[type="submit"]:active,
+.GLF-yellow input[type="reset"]:active,
+.GLF-yellow input[type="image"]:active {
+    -webkit-box-shadow: 0px 1px 3px #ffc000 inset;
+    -moz-box-shadow: 0px 1px 3px #ffc000 inset;
+    box-shadow: 0px 1px 3px #ffc000 inset;
+    border: 1px solid #ffd200;
+}
+
+/*
+*
+* =yellow Color
+*
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** ICONS ***/
+
+.GLF-icon, .GLF-icon_white{
+    position: relative;
+    padding: 8px 30px 7px 40px !important;
+}
+
+.GLF-icon span, .GLF-icon_white span{
+    content: '';
+    position: absolute;
+    height: 21px;
+    width: 21px;
+    left: 15px;
+    top: 5px;
+    background: url('images/icons.png');
+    opacity: .55;
+}
+
+.GLF-icon_white span{
+    background: url('images/icons_white.png');
+}
+
+.GLF-icon:hover span, .GLF-icon_white:hover span{
+    opacity: 0.7;
+}
+
+/*** ICONS - Background positions ***/
+
+.GLF-clip span{
+    background-position: 0 0;
+}
+
+.GLF-message span{
+    background-position: 84px 0;
+}
+
+.GLF-date span{
+    background-position: 63px 0;
+}
+
+.GLF-phone span{
+    background-position: 42px 0;
+}
+
+.GLF-buzz span{
+    background-position: 21px 0;
+}
+
+.GLF-preferences span{
+    background-position: 0 84px;
+}
+
+.GLF-left span{
+    background-position: 84px 84px;
+}
+
+.GLF-right span{
+    background-position: 63px 84px;
+}
+
+.GLF-refresh span{
+    background-position: 42px 84px;
+}
+
+.GLF-get span{
+    background-position: 21px 84px;
+}
+
+
+.GLF-enter span{
+    background-position: 0 63px;
+}
+.GLF-tag span{
+    background-position: 84px 63px;
+}
+.GLF-alert span{
+    background-position: 63px 63px;
+}
+.GLF-trash span{
+    background-position: 42px 63px;
+}
+.GLF-file span{
+    background-position: 21px 63px;
+}
+
+
+.GLF-back span{
+    background-position: 0 42px;
+}
+.GLF-first span{
+    background-position: 84px 42px;
+}
+.GLF-next span{
+    background-position: 63px 42px;
+}
+.GLF-arrow span{
+    background-position: 42px 42px;
+}
+.GLF-print span{
+    background-position: 21px 42px;
+}
+
+
+.GLF-download span{
+    background-position: 0 21px;
+}
+.GLF-upload span{
+    background-position: 84px 21px;
+}
+.GLF-down span{
+    background-position: 63px 21px;
+}
+.GLF-mail span{
+    background-position: 42px 21px;
+}

@@ -1,0 +1,26 @@
+﻿#testimonials-1 q {
+    background-color: #E9EAEE !important;
+    color: #057591 !important;
+}
+
+#testimonials-1 .review blockquote div:after {
+    border-top-color: #E9EAEE !important;
+}
+
+#testimonials-2 q {
+    background-color: #E9EAEE !important;
+    color: #057591 !important;
+}
+
+#testimonials-2 .review blockquote div:after {
+    border-top-color: #E9EAEE !important;
+}
+
+#testimonials-3 q {
+    background-color: #E9EAEE !important;
+    color: #057591 !important;
+}
+
+#testimonials-3 .review blockquote div:after {
+    border-top-color: #E9EAEE !important;
+}
